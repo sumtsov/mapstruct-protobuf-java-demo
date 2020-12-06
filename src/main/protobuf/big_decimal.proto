@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "big_integer.proto";
+
+option java_package = "com.dsumtsov.mapstruct.protobuf.example.protobuf";
+option java_outer_classname = "BDecimalProto";
+
+message BDecimal {
+  int32 scale = 1;
+  BInteger int_val = 2;
+}

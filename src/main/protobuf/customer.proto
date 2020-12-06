@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option java_package = "com.dsumtsov.mapstruct.protobuf.example.protobuf";
+option java_outer_classname = "CustomerProto";
+
+message Customer {
+  int64 id = 1;
+  string first_name = 2;
+  string last_name = 3;
+  string email = 4;
+  string birth_date = 5;
+  map<string, string> features = 6;
+}
+
+message CustomerList {
+  repeated Customer customer = 1;
+}
+
+message CustomerMap {
+  map<int64, Customer> customer = 1;
+}
+
+message CustomerListMap {
+  map<int64, CustomerList> customer = 1;
+}
+
+message CustomerNestedListMap {
+  map<int64, CustomerListMap> customer = 1;
+}
