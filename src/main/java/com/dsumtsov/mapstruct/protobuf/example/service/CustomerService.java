@@ -18,10 +18,8 @@ public class CustomerService {
         dto.setLastName("Last Name");
         dto.setEmail("somebody@mail.com");
         dto.setBirthDate("20.10.1995");
-        dto.setFeatures(
-                ImmutableMap.of("1", "feature_1",
-                "2", "feature_2")
-        );
+        dto.setFeatures(ImmutableMap.of("1", "feature_1",
+                "2", "feature_2"));
         return dto;
     }
 
