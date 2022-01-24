@@ -23,12 +23,24 @@
         <protobuf-spi-impl.version>1.8</protobuf-spi-impl.version>
         <protoc-jar-plugin.version>3.11.4</protoc-jar-plugin.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+        <springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>
+        <jackson-datatype-protobuf.version>0.9.12</jackson-datatype-protobuf.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-boot-starter</artifactId>
+            <version>${springfox-boot-starter.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.hubspot.jackson</groupId>
+            <artifactId>jackson-datatype-protobuf</artifactId>
+            <version>${jackson-datatype-protobuf.version}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -54,6 +66,10 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
             <!-- this plugin generates java classes from .proto files -->
             <plugin>
                 <groupId>com.github.os72</groupId>
