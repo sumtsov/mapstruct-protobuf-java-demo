@@ -29,7 +29,8 @@ public class SwaggerConfiguration implements ApplicationListener<ObjectMapperCon
             "1.0", "urn:tos", DEFAULT_CONTACT,
             "Apache 2.0", "http://www.apache.org/licenses/LICENSE-2.0", new ArrayList());
 
-    private static final Set<String> DEFAULT_PRODUCES_AND_CONSUMES = new HashSet<>(Arrays.asList("application/json", "application/xml"));
+    private static final Set<String> DEFAULT_PRODUCES_AND_CONSUMES =
+            new HashSet<>(Arrays.asList("application/json", "application/xml", "application/x-protobuf"));
 
     private static final String DEFAULT_BASE_PACKAGE = "com.dsumtsov.mapstruct.protobuf.example";
 
