@@ -1,4 +1,4 @@
-package com.dsumtsov.mapstruct.protobuf.example.config;
+package com.dsumtsov.mapstruct.protobuf.demo.config;
 
 import com.hubspot.jackson.datatype.protobuf.ProtobufModule;
 import org.springframework.context.ApplicationListener;
@@ -32,7 +32,7 @@ public class SwaggerConfiguration implements ApplicationListener<ObjectMapperCon
     private static final Set<String> DEFAULT_PRODUCES_AND_CONSUMES =
             new HashSet<>(Arrays.asList("application/json", "application/xml", "application/x-protobuf"));
 
-    private static final String DEFAULT_BASE_PACKAGE = "com.dsumtsov.mapstruct.protobuf.example";
+    private static final String DEFAULT_BASE_PACKAGE = "com.dsumtsov.mapstruct.protobuf.demo";
 
     @Override
     public void onApplicationEvent(ObjectMapperConfigured event) {

@@ -1,6 +1,6 @@
-package com.dsumtsov.mapstruct.protobuf.example.service;
+package com.dsumtsov.mapstruct.protobuf.demo.service;
 
-import com.dsumtsov.mapstruct.protobuf.example.dto.ExchangeRateDTO;
+import com.dsumtsov.mapstruct.protobuf.demo.dto.ExchangeRateDTO;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;

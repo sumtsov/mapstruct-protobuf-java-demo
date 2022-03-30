@@ -1,6 +1,6 @@
-package com.dsumtsov.mapstruct.protobuf.example.service;
+package com.dsumtsov.mapstruct.protobuf.demo.service;
 
-import com.dsumtsov.mapstruct.protobuf.example.dto.CustomerDTO;
+import com.dsumtsov.mapstruct.protobuf.demo.dto.CustomerDTO;
 import com.google.common.collect.ImmutableMap;
 import org.springframework.stereotype.Service;
 

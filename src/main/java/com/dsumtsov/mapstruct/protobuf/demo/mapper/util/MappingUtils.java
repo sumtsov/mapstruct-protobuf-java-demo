@@ -1,7 +1,7 @@
-package com.dsumtsov.mapstruct.protobuf.example.mapper.util;
+package com.dsumtsov.mapstruct.protobuf.demo.mapper.util;
 
-import com.dsumtsov.mapstruct.protobuf.example.protobuf.BDecimalProto.BDecimal;
-import com.dsumtsov.mapstruct.protobuf.example.protobuf.BIntegerProto.BInteger;
+import com.dsumtsov.mapstruct.protobuf.demo.protobuf.BDecimalProto.BDecimal;
+import com.dsumtsov.mapstruct.protobuf.demo.protobuf.BIntegerProto.BInteger;
 
 import java.math.BigDecimal;
 

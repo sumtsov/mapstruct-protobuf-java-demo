@@ -1,13 +1,13 @@
-package com.dsumtsov.mapstruct.protobuf.example;
+package com.dsumtsov.mapstruct.protobuf.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MapstructProtobufExampleApplication {
+public class MapstructProtobufDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MapstructProtobufExampleApplication.class, args);
+        SpringApplication.run(MapstructProtobufDemoApplication.class, args);
     }
 
 }

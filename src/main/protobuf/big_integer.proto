@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option java_package = "com.dsumtsov.mapstruct.protobuf.example.protobuf";
+option java_package = "com.dsumtsov.mapstruct.protobuf.demo.protobuf";
 option java_outer_classname = "BIntegerProto";
 
 message BInteger {

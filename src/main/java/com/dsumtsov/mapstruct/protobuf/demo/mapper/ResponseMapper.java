@@ -1,7 +1,7 @@
-package com.dsumtsov.mapstruct.protobuf.example.mapper;
+package com.dsumtsov.mapstruct.protobuf.demo.mapper;
 
-import com.dsumtsov.mapstruct.protobuf.example.protobuf.ResponseProto.ErrorCode;
-import com.dsumtsov.mapstruct.protobuf.example.protobuf.ResponseProto.Response;
+import com.dsumtsov.mapstruct.protobuf.demo.protobuf.ResponseProto.ErrorCode;
+import com.dsumtsov.mapstruct.protobuf.demo.protobuf.ResponseProto.Response;
 import com.google.protobuf.Any;
 import com.google.protobuf.Message;
 import org.mapstruct.Mapper;

@@ -1,4 +1,4 @@
-package com.dsumtsov.mapstruct.protobuf.example.dto;
+package com.dsumtsov.mapstruct.protobuf.demo.dto;
 
 import lombok.Data;
 

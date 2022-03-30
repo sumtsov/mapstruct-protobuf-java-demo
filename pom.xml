@@ -12,7 +12,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.dsumtsov</groupId>
-    <artifactId>mapstruct-protobuf-java-example</artifactId>
+    <artifactId>mapstruct-protobuf-java-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

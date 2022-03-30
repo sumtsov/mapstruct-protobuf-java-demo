@@ -1,11 +1,11 @@
-package com.dsumtsov.mapstruct.protobuf.example.mapper;
+package com.dsumtsov.mapstruct.protobuf.demo.mapper;
 
-import com.dsumtsov.mapstruct.protobuf.example.dto.CustomerDTO;
-import com.dsumtsov.mapstruct.protobuf.example.protobuf.CustomerProto.Customer;
-import com.dsumtsov.mapstruct.protobuf.example.protobuf.CustomerProto.CustomerMap;
-import com.dsumtsov.mapstruct.protobuf.example.protobuf.CustomerProto.CustomerList;
-import com.dsumtsov.mapstruct.protobuf.example.protobuf.CustomerProto.CustomerListMap;
-import com.dsumtsov.mapstruct.protobuf.example.protobuf.CustomerProto.CustomerNestedListMap;
+import com.dsumtsov.mapstruct.protobuf.demo.dto.CustomerDTO;
+import com.dsumtsov.mapstruct.protobuf.demo.protobuf.CustomerProto.Customer;
+import com.dsumtsov.mapstruct.protobuf.demo.protobuf.CustomerProto.CustomerMap;
+import com.dsumtsov.mapstruct.protobuf.demo.protobuf.CustomerProto.CustomerList;
+import com.dsumtsov.mapstruct.protobuf.demo.protobuf.CustomerProto.CustomerListMap;
+import com.dsumtsov.mapstruct.protobuf.demo.protobuf.CustomerProto.CustomerNestedListMap;
 import org.mapstruct.AfterMapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
