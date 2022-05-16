@@ -1,5 +1,5 @@
 # Mapstruct Protobuf Java Demo
-Demo project that demonstrates how to use Mapstruct to map data between Java beans and Protobuf generated beans
+Sample project that demonstrates how to use Mapstruct to map data between Java beans and Protobuf generated beans
 
 ## How to run
 1. Build the project: `mvn clean package`
